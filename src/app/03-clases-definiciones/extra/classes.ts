@@ -1,20 +1,18 @@
-export class SuperHeroe {
+export class Hero {
+  nombre: string;
+  poder: string;
+  edad: number;
+  pasatiempo: string;
 
-    nombre: string;
-    poder: string;
-    edad: number;
-    pasatiempo: string;
+  constructor() {}
 
-    constructor() { }
+  usarPoder() {}
 
-    usarPoder() {}
+  volar() {}
 
-    volar() {}
+  correr() {}
 
-    correr() {}
+  caminar() {}
 
-    caminar() {}
-
-    revivir() {}
-
+  revivir() {}
 }
