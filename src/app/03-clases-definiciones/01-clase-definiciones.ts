@@ -13,44 +13,42 @@
         Se pueden agrupar si después de la @, se escriben :
 */
 
-
 class SuperHeroe {
+  nombre: string;
+  poder: string;
+  edad: number;
+  pasatiempo: string;
 
-    nombre: string;
-    poder: string;
-    edad: number;
-    pasatiempo: string;
+  // tslint:disable-next-line:variable-name
+  private _nombreSecreto: string;
 
-    // tslint:disable-next-line:variable-name
-    private _nombreSecreto: string;
+  constructor() {}
 
-    constructor() { }
+  usarPoder() {}
 
-    usarPoder() {}
+  volar() {}
 
-    volar() {}
+  correr() {}
 
-    correr() {}
+  caminar() {}
 
-    caminar() {}
+  revivir() {}
 
-    revivir() {}
+  // Sólo para demostración
+  // tslint:disable-next-line:member-ordering
+  nombre2: string;
+  // tslint:disable-next-line:member-ordering
+  poder2: string;
+  // tslint:disable-next-line:member-ordering
+  edad2: number;
+  // tslint:disable-next-line:member-ordering
+  pasatiempo3: string;
 
-    // Sólo para demostración
-    // tslint:disable-next-line:member-ordering
-    nombre2: string;
-    // tslint:disable-next-line:member-ordering
-    poder2: string;
-    // tslint:disable-next-line:member-ordering
-    edad2: number;
-    // tslint:disable-next-line:member-ordering
-    pasatiempo3: string;
+  set nombreSecreto(nombre) {
+    this._nombreSecreto = nombre;
+  }
 
-    set nombreSecreto(nombre) {
-        this._nombreSecreto = nombre;
-    }
-
-    get nombreSecreto() {
-        return this._nombreSecreto;
-    }
+  get nombreSecreto() {
+    return this._nombreSecreto;
+  }
 }
