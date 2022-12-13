@@ -1,17 +1,11 @@
-
-
 // Bookmarks
 
 class Temporal {
-
-    constructor(parameters) {
-        
-    }
+  constructor(parameters) {
+    // interesting ...
+  }
 }
 
-
 class OtraClase {
-    constructor(parameters) {
-        
-    }
+  constructor(parameters) {}
 }
